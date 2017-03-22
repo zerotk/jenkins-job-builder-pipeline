@@ -2,3 +2,5 @@
 *.pyc
 .cache/
 __pycache__
+/build/
+/dist/

@@ -8,14 +8,14 @@ except ImportError:
 
 
 setup(
-    name='jenkins-job-builder-pipeline',
-    version='0.1.0',
+    name='zerotk.jenkins-job-builder-pipeline',
+    version='0.1.1',
     description="Pipeline support for jenkins-job-builder",
     author="https://github.com/rusty-dev",
     url='https://github.com/rusty-dev/jenkins-job-builder-pipeline',
     packages=['jjb_pipeline'],
     include_package_data=True,
-    install_requires=['jenkins-job-builder'],
+    install_requires=['zerotk.jenkins-job-builder'],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
